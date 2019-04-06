@@ -8,8 +8,8 @@
     "http-server": "http-server ./dist/angular-board/ -c-1 -p4271 -a localhost -o",
     "lint": "ng lint",
     "ng": "ng",
-    "pub": "npm run build:pub && npm run push",
-    "push": "git add * && git commit -m 'pub' && git push",
+    "pub": "npm run build:pub && npm run push $1",
+    "push": "git add * && git commit -m '$1' && git push",
     "start:prod": "npm run build:prod && npm run http-server",
     "start": "ng serve --aot -o --port 4270",
     "test": "ng test"
