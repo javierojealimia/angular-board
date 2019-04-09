@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "ng": "ng",
     "pub": "npm run build:pub && npm run push",
-    "push": "git add * && git commit -m \"Routing page Tema 2\" && git push",
+    "push": "git add * && git commit -m \"Data binding Tema 3\" && git push",
     "start:prod": "npm run build:prod && npm run http-server",
     "start": "ng serve --aot -o --port 4270",
     "test": "ng test"
