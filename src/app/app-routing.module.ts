@@ -12,8 +12,16 @@ const routes: Routes = [
     loadChildren: './contacts/contacts.module#ContactsModule'
   },
   {
+    path: 'car',
+    loadChildren: './car/car.module#CarModule'
+  },
+  {
     path: 'about',
     loadChildren: './about/about.module#AboutModule'
+  },
+  {
+    path: 'converter',
+    loadChildren: './converter/converter.module#ConverterModule'
   },
   {
     path: 'heroes',
